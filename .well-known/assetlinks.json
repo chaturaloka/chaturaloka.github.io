@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.chaturaloka.memorytiles",
+      "sha256_cert_fingerprints": [
+        "D4:43:39:03:08:3A:5B:07:15:8E:E4:C8:69:3D:99:18:B6:18:16:B0:1F:76:AD:79:94:57:33:89:A1:4F:5D:B4"
+      ]
+    }
+  }
+]
