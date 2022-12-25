@@ -22,5 +22,17 @@
         "01:A5:3D:E6:FE:BD:8B:4C:74:A1:66:CD:3C:A7:F2:66:3B:8E:75:3C:9B:4C:13:4F:E0:1D:A4:1B:B0:2B:A0:84"
       ]
     }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.chaturaloka.memorytiles",
+      "sha256_cert_fingerprints": [
+        "B2:32:92:43:9B:A5:B3:AF:B0:E3:A4:EA:B0:11:6F:B9:0E:6F:26:69:8B:27:DA:9A:76:F6:46:00:82:25:50:26"
+      ]
+    }
   }
 ]
