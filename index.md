@@ -6,6 +6,6 @@ layout: default
 
 - [MemoryTiles Policies](./MemoryTiles_Policies.html)
 - [Sow Pretty Policies](./Sow_Pretty_Policies.html)
-- [SpellPal_Policies Policies](./SpellPal_Policies.html)
+- [SpellPal Policies](./SpellPal_Policies.html)
 
 ---
