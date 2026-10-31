@@ -6,70 +6,94 @@ layout: default
 
 ## Privacy Policy
 
-ChaturaLoka built the SpellPal app as a Free app. This SERVICE is provided by ChaturaLoka at no cost and is intended for use as is.
+**Effective date: 2026-10-31**
 
-This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
+ChaturaLoka ("we") makes SpellPal, a free app that spells names and words letter by letter with a phonetic alphabet ("B as in Bravo"). SpellPal is available for iPhone and iPad with an Apple Watch companion, and for Android phones with a Wear OS companion. This policy explains what information SpellPal collects, why, and the choices you have.
 
-If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.
+### Summary
 
-The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are accessible at SpellPal unless otherwise defined in this Privacy Policy.
+* You can use SpellPal **without an account** (guest mode). Guests can spell any name; only saving names needs an account.
+* The **names you type and the names you save stay on your device** (and your paired watch). We don't upload them.
+* If you sign in, we receive your **name and email address** from Apple or Google to run your account.
+* We use Google Firebase and, on Android, Microsoft Clarity to understand how the app is used and to fix crashes.
+* We **don't sell your data, don't show ads and don't track you** across other companies' apps or websites.
+* You can **delete your account** at any time.
 
-**Information Collection and Use**
+### Information we collect
 
-For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information. The information that we request will be retained by us and used as described in this privacy policy.
+**1. Account information (only if you sign in)**
 
-The app does use third-party services that may collect information used to identify you.
+* **Sign in with Apple (iPhone/iPad):** the name you share with Apple and your email address. If you choose "Hide My Email", we receive an Apple relay address instead of your real one.
+* **Sign in with Google (Android):** your name and email address from your Google account.
+* Your account is managed by **Firebase Authentication** (Google), which assigns it a user ID.
 
-Link to the privacy policy of third-party service providers used by the app
+We use this information only to sign you in and to show your name and email on your Profile.
 
-*   [Google Play Services](https://www.google.com/policies/privacy/)
-*   [Google Analytics for Firebase](https://firebase.google.com/policies/analytics)
-*   [Firebase Crashlytics](https://firebase.google.com/support/privacy/)
+**2. Names you spell and save**
 
-**Log Data**
+The names and words you type, and the list of saved names, are stored **only on your device**. When you have a paired Apple Watch or Wear OS watch, your saved names and spelling style are sent directly from your phone to your watch through the operating system (Apple WatchConnectivity / Google Wear OS Data Layer). We don't receive them.
 
-We want to inform you that whenever you use our Service, in a case of an error in the app we collect data and information (through third-party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.
+**3. Usage and diagnostics**
 
-**Cookies**
+* **Google Analytics for Firebase:** records how features are used, for example that a name was spelled, how many letters it had, which spelling style was used, or that a name was saved. **On iPhone, these events never include the names you type, your name or your email, and no account ID is attached.** Firebase also uses an app-instance identifier and basic device information (model, OS version, country derived from IP address).
+* **Firebase Remote Config:** lets us turn features on or off, such as which sign-in options are shown. It uses an app-instance identifier.
+* **Firebase Crashlytics (Android):** sends crash reports with device and app details, and your account's user ID if you're signed in, so we can fix problems.
+* **Microsoft Clarity (Android):** records how the app is used, such as screens viewed, taps and scrolls, and may create session recordings of the app's screens. See Microsoft's privacy statement below.
 
-Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
+Advertising identifiers (IDFA / Android advertising ID) and ad personalisation are not used by SpellPal on iPhone.
 
-This Service does not use these “cookies” explicitly. However, the app may use third-party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
+**4. Permissions**
 
-**Service Providers**
+SpellPal plays speech through your device's speaker. It doesn't request your contacts, location, photos, camera or microphone. On Apple Watch, typing a name may use the system's dictation, Scribble or keyboard, which is handled by Apple.
 
-We may employ third-party companies and individuals due to the following reasons:
+### How we use information
 
-*   To facilitate our Service;
-*   To provide the Service on our behalf;
-*   To perform Service-related services; or
-*   To assist us in analyzing how our Service is used.
+* To provide the app: sign-in, your Profile and saving names.
+* To keep it working: diagnosing crashes and errors.
+* To improve it: understanding which features are used.
+* To roll out or switch off features safely (Remote Config).
 
-We want to inform users of this Service that these third parties have access to their Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+We don't use your information for advertising, and we don't sell or rent it.
 
-**Security**
+### Who we share it with
 
-We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.
+Only with the service providers that run these features for us, who process it under their own terms:
 
-**Links to Other Sites**
+* [Google Firebase (Authentication, Analytics, Remote Config, Crashlytics)](https://firebase.google.com/support/privacy)
+* [Google Play Services](https://policies.google.com/privacy) (Android)
+* [Microsoft Clarity](https://privacy.microsoft.com/privacystatement) (Android)
+* [Sign in with Apple](https://www.apple.com/legal/privacy/) (iPhone/iPad)
 
-This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+We may also disclose information if required by law.
 
-**Children’s Privacy**
+### Keeping and deleting your data
 
-These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13 years of age. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do the necessary actions.
+* **Delete your account:**
+  * **iPhone/iPad:** open SpellPal → Account & Settings → **Delete Account**. This deletes your Firebase account, revokes SpellPal's Sign in with Apple access, and removes your saved names from the device.
+  * **Android:** email us at subbramanil@gmail.com from the address on your account, and we'll delete it within 30 days.
+* **Saved names** are removed when you delete your account or the app.
+* **Analytics and crash data** are kept by Google and Microsoft for their standard retention periods (for Google Analytics, up to 14 months) and are not linked to your name or email.
+* You can also stop SpellPal using your Apple ID at any time: iPhone Settings → your name → Sign in with Apple → SpellPal → Stop Using Apple ID.
 
-**Changes to This Privacy Policy**
+### Security
 
-We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.
+Data sent to Firebase and Microsoft is encrypted in transit. No method of transmission or storage is 100% secure, but we use the providers' standard protections and collect as little as we can.
 
-This policy is effective as of 2023-03-03
+### Children's privacy
 
-**Contact Us**
+SpellPal is not directed at children under 13, and we don't knowingly collect personal information from them. If you believe a child under 13 has given us personal information, contact us and we'll delete it.
 
-If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at subbramanil@gmail.com.
+### Your rights
 
-This privacy policy page was created at [privacypolicytemplate.net](https://privacypolicytemplate.net) and modified/generated by [App Privacy Policy Generator](https://app-privacy-policy-generator.nisrulz.com/)
+Depending on where you live, you may have the right to access, correct or delete your personal information, or to object to its processing. Contact us at the address below and we'll respond within 30 days.
+
+### Changes to this policy
+
+We'll post any changes on this page and update the effective date above.
+
+### Contact us
+
+Questions or requests: **subbramanil@gmail.com**
 
 ---
 
@@ -86,8 +110,9 @@ The app does use third-party services that declare their Terms and Conditions.
 Link to Terms and Conditions of third-party service providers used by the app
 
 *   [Google Play Services](https://policies.google.com/terms)
-*   [Google Analytics for Firebase](https://firebase.google.com/terms/analytics)
-*   [Firebase Crashlytics](https://firebase.google.com/terms/crashlytics)
+*   [Google Firebase](https://firebase.google.com/terms)
+*   [Microsoft Clarity](https://clarity.microsoft.com/terms)
+*   [Apple Media Services Terms](https://www.apple.com/legal/internet-services/itunes/)
 
 You should be aware that there are certain things that ChaturaLoka will not take responsibility for. Certain functions of the app will require the app to have an active internet connection. The connection can be Wi-Fi or provided by your mobile network provider, but ChaturaLoka cannot take responsibility for the app not working at full functionality if you don’t have access to Wi-Fi, and you don’t have any of your data allowance left.
 
@@ -97,13 +122,13 @@ Along the same lines, ChaturaLoka cannot always take responsibility for the way 
 
 With respect to ChaturaLoka’s responsibility for your use of the app, when you’re using the app, it’s important to bear in mind that although we endeavor to ensure that it is updated and correct at all times, we do rely on third parties to provide information to us so that we can make it available to you. ChaturaLoka accepts no liability for any loss, direct or indirect, you experience as a result of relying wholly on this functionality of the app.
 
-At some point, we may wish to update the app. The app is currently available on Android – the requirements for the system(and for any additional systems we decide to extend the availability of the app to) may change, and you’ll need to download the updates if you want to keep using the app. ChaturaLoka does not promise that it will always update the app so that it is relevant to you and/or works with the Android version that you have installed on your device. However, you promise to always accept updates to the application when offered to you, We may also wish to stop providing the app, and may terminate use of it at any time without giving notice of termination to you. Unless we tell you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must stop using the app, and (if needed) delete it from your device.
+At some point, we may wish to update the app. The app is currently available on iOS, iPadOS, watchOS, Android and Wear OS – the requirements for these systems (and for any additional systems we decide to extend the availability of the app to) may change, and you’ll need to download the updates if you want to keep using the app. ChaturaLoka does not promise that it will always update the app so that it is relevant to you and/or works with the operating system version that you have installed on your device. However, you promise to always accept updates to the application when offered to you, We may also wish to stop providing the app, and may terminate use of it at any time without giving notice of termination to you. Unless we tell you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must stop using the app, and (if needed) delete it from your device.
 
 **Changes to This Terms and Conditions**
 
 We may update our Terms and Conditions from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Terms and Conditions on this page.
 
-These terms and conditions are effective as of 2023-03-03
+These terms and conditions are effective as of 2026-10-31
 
 **Contact Us**
 
