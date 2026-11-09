@@ -6,7 +6,7 @@ layout: default
 
 ## Privacy Policy
 
-**Effective date: 2026-10-31**
+**Effective date: 2026-11-09**
 
 ChaturaLoka ("we") makes SpellPal, a free app that spells names and words letter by letter with a phonetic alphabet ("B as in Bravo"). SpellPal is available for iPhone and iPad with an Apple Watch companion, and for Android phones with a Wear OS companion. This policy explains what information SpellPal collects, why, and the choices you have.
 
@@ -14,7 +14,7 @@ ChaturaLoka ("we") makes SpellPal, a free app that spells names and words letter
 
 * You can use SpellPal **without an account** (guest mode). Guests can spell any name; only saving names needs an account.
 * The **names you type and the names you save stay on your device** (and your paired watch). We don't upload them.
-* If you sign in, we receive your **name and email address** from Apple or Google to run your account.
+* If you sign in, Apple or Google shares your **name and email address** with SpellPal. On iPhone and iPad they're used to run your account; on Android your account stays on your device.
 * We use Google Firebase and, on Android, Microsoft Clarity to understand how the app is used and to fix crashes.
 * We **don't sell your data, don't show ads and don't track you** across other companies' apps or websites.
 * You can **delete your account** at any time.
@@ -24,10 +24,13 @@ ChaturaLoka ("we") makes SpellPal, a free app that spells names and words letter
 **1. Account information (only if you sign in)**
 
 * **Sign in with Apple (iPhone/iPad):** the name you share with Apple and your email address. If you choose "Hide My Email", we receive an Apple relay address instead of your real one.
-* **Sign in with Google (Android):** your name and email address from your Google account.
-* Your account is managed by **Firebase Authentication** (Google), which assigns it a user ID.
+* **Sign in with Google (Android):** your name, email address and profile photo from your Google account.
 
-We use this information only to sign you in and to show your name and email on your Profile.
+On iPhone and iPad, your account is managed by **Firebase Authentication** (Google), which assigns it a user ID.
+
+On Android, there's no server account. SpellPal keeps a scrambled (hashed) form of your Google account ID, your name and your profile photo link **only on your device**. Your email address is shown during sign-in but isn't saved.
+
+We use this information only to sign you in and to show your details on your Profile.
 
 **2. Names you spell and save**
 
@@ -35,12 +38,12 @@ The names and words you type, and the list of saved names, are stored **only on 
 
 **3. Usage and diagnostics**
 
-* **Google Analytics for Firebase:** records how features are used, for example that a name was spelled, how many letters it had, which spelling style was used, or that a name was saved. **On iPhone, these events never include the names you type, your name or your email, and no account ID is attached.** Firebase also uses an app-instance identifier and basic device information (model, OS version, country derived from IP address).
-* **Firebase Remote Config:** lets us turn features on or off, such as which sign-in options are shown. It uses an app-instance identifier.
-* **Firebase Crashlytics (Android):** sends crash reports with device and app details, and your account's user ID if you're signed in, so we can fix problems.
-* **Microsoft Clarity (Android):** records how the app is used, such as screens viewed, taps and scrolls, and may create session recordings of the app's screens. See Microsoft's privacy statement below.
+* **Google Analytics for Firebase:** on iPhone and iPad, records how features are used, for example that a name was spelled, how many letters it had, which spelling style was used, or that a name was saved. On Android, it records only standard app events such as app opens, sessions and screens viewed. **These events never include the names you type, your name or your email, and no account ID is attached.** Firebase also uses an app-instance identifier and basic device information (model, OS version, country derived from IP address).
+* **Firebase Remote Config (iPhone/iPad):** lets us turn features on or off, such as which sign-in options are shown. It uses an app-instance identifier.
+* **Firebase Crashlytics (Android):** sends crash reports with device and app details so we can fix problems. No account ID is attached.
+* **Microsoft Clarity (Android):** records how the app is used, such as screens viewed, taps and scrolls, and may create session recordings of the app's screens. **All text and images are masked in these recordings**, so the names you type, your name and your photo aren't captured. See Microsoft's privacy statement below.
 
-Advertising identifiers (IDFA / Android advertising ID) and ad personalisation are not used by SpellPal on iPhone.
+SpellPal doesn't use advertising identifiers (IDFA on iPhone, the advertising ID on Android) or ad personalisation.
 
 **4. Permissions**
 
@@ -59,7 +62,7 @@ We don't use your information for advertising, and we don't sell or rent it.
 
 Only with the service providers that run these features for us, who process it under their own terms:
 
-* [Google Firebase (Authentication, Analytics, Remote Config, Crashlytics)](https://firebase.google.com/support/privacy)
+* [Google Firebase (Analytics; Authentication and Remote Config on iPhone/iPad; Crashlytics on Android)](https://firebase.google.com/support/privacy)
 * [Google Play Services](https://policies.google.com/privacy) (Android)
 * [Microsoft Clarity](https://privacy.microsoft.com/privacystatement) (Android)
 * [Sign in with Apple](https://www.apple.com/legal/privacy/) (iPhone/iPad)
@@ -70,7 +73,7 @@ We may also disclose information if required by law.
 
 * **Delete your account:**
   * **iPhone/iPad:** open SpellPal → Account & Settings → **Delete Account**. This deletes your Firebase account, revokes SpellPal's Sign in with Apple access, and removes your saved names from the device.
-  * **Android:** email us at subbramanil@gmail.com from the address on your account, and we'll delete it within 30 days.
+  * **Android:** open SpellPal → Settings → **Delete account**, and confirm with the same Google account. This removes your saved names, your profile and your sign-in from the device. Because SpellPal has no server account on Android, nothing else needs deleting. Uninstalling the app also removes all of it. For help, email us at subbramanil@gmail.com.
 * **Saved names** are removed when you delete your account or the app.
 * **Analytics and crash data** are kept by Google and Microsoft for their standard retention periods (for Google Analytics, up to 14 months) and are not linked to your name or email.
 * You can also stop SpellPal using your Apple ID at any time: iPhone Settings → your name → Sign in with Apple → SpellPal → Stop Using Apple ID.
