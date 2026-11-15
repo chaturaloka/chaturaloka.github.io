@@ -6,104 +6,124 @@ layout: default
 
 ## Privacy Policy
 
-Chatura Loka built the **MemoryTiles** app as a Free app. This SERVICE is provided by Chatura Loka at no cost and is intended for use as is.
+**Effective date: 2026-11-15**
 
-This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
+ChaturaLoka ("we") makes Memory Tiles, a free memory game for Android: flip two tiles at a time, find the matching pairs, and climb 25 levels and a global leaderboard. This policy explains what information Memory Tiles collects, why, and the choices you have.
 
-If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.
+### Summary
 
-The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are accessible at **MemoryTiles** unless otherwise defined in this Privacy Policy.
+* To play, you either enter a **player name as a guest** or **continue with Google**. Either way, Memory Tiles creates an account for you with Google Firebase.
+* We store your **player name and game progress** (level, total score, moves made) on our server. Your **player name, level, score and moves are shown to other players** on the leaderboard.
+* If you continue with Google, Google shares your **name, email address and profile photo** with Memory Tiles. Your email address and photo are never shown to other players.
+* We use Google Firebase to understand how the app is used and to fix crashes.
+* We **don't sell your data and don't show ads**.
+* You can ask us to **delete your account and game data** at any time (see "Keeping and deleting your data").
 
-**Information Collection and Use**
+### Information we collect
 
-For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information, including but not limited to Full Name if the user signed in using Google or Guest Name. The information that we request will be retained by us and used as described in this privacy policy.
+**1. Account information**
 
-The app does use third-party services that may collect information used to identify you.
+* **Playing as a guest:** the player name you type. Firebase Authentication (Google) creates an anonymous account for you with a random user ID. No email address or other details are needed.
+* **Continue with Google:** your name, email address and profile photo from your Google account. Firebase Authentication keeps your account (user ID, name, email address and photo link). Memory Tiles uses your name as your player name and shows your photo on your own Profile.
 
-Link to the privacy policy of third-party service providers used by the app
+On your device, Memory Tiles keeps your player name, how you signed in and (for Google accounts) your photo link, so you don't have to sign in every time.
 
-*   [Google Play Services](https://www.google.com/policies/privacy/)
-*   [Google Analytics for Firebase](https://firebase.google.com/policies/analytics)
-*   [Firebase Crashlytics](https://firebase.google.com/support/privacy/)
+**2. Game progress and leaderboard**
 
-**Log Data**
+For each player, our server (Google Cloud Firestore) stores: your user ID, player name, highest level reached, total score, total moves made and when your progress was last updated.
 
-We want to inform you that whenever you use our Service, in a case of an error in the app we collect data and information (through third-party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.
+The leaderboard shows other players your **player name, level, total score and moves made**, and your rank. It never shows your email address or photo. Pick a guest name you're happy for others to see.
 
-**Cookies**
+**3. Usage and diagnostics**
 
-Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
+* **Google Analytics for Firebase:** records standard app events such as app opens, sessions and screens viewed. These events don't include your player name, your email or your game progress. Firebase also uses an app-instance identifier, basic device information (model, OS version, country derived from IP address) and, where your device allows it, your device's advertising ID. Memory Tiles doesn't show ads or use the advertising ID for ad personalisation.
+* **Firebase Crashlytics:** sends crash and error reports with device and app details so we can fix problems. Reports don't include your player name, email address or user ID.
 
-This Service does not use these “cookies” explicitly. However, the app may use third-party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
+**4. Permissions**
 
-**Service Providers**
+Memory Tiles uses the internet to sign you in, save your progress and load the leaderboard. It doesn't request your contacts, location, photos, camera or microphone.
 
-We may employ third-party companies and individuals due to the following reasons:
+### How we use information
 
-*   To facilitate our Service;
-*   To provide the Service on our behalf;
-*   To perform Service-related services; or
-*   To assist us in analyzing how our Service is used.
+* To provide the app: sign-in, saving your progress, your Profile and the leaderboard.
+* To keep it working: diagnosing crashes and errors.
+* To improve it: understanding how the app is used.
 
-We want to inform users of this Service that these third parties have access to their Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+We don't use your information for advertising, and we don't sell or rent it.
 
-**Security**
+### Who we share it with
 
-We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.
+* **Other players** see your player name, level, total score, moves made and rank on the leaderboard.
+* **Service providers** that run these features for us, who process it under their own terms:
+  * [Google Firebase (Authentication, Cloud Firestore, Analytics, Crashlytics)](https://firebase.google.com/support/privacy)
+  * [Google Play Services and Google Sign-In](https://policies.google.com/privacy)
 
-**Links to Other Sites**
+We may also disclose information if required by law.
 
-This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+### Keeping and deleting your data
 
-**Children’s Privacy**
+* **Your account and game data** are kept while you play. Signing out (Exit or Log out on the Profile screen) or uninstalling the app does **not** delete them from our server.
+* **To delete your account and game data**, email **subbramanil@gmail.com** from any address with the subject "Delete my Memory Tiles account" and your player name (and, for Google accounts, the Google email address you used). We'll delete your Firebase account and your game progress, which removes you from the leaderboard, within 30 days and confirm by email.
+* **Data on your device** is removed when you uninstall the app or clear its storage.
+* **Analytics and crash data** are kept by Google for its standard retention periods (for Google Analytics, up to 14 months) and are not linked to your player name or email.
+* You can also remove Memory Tiles' access to your Google account at any time at [myaccount.google.com/connections](https://myaccount.google.com/connections).
 
-These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13 years of age. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do the necessary actions.
+### Security
 
-**Changes to This Privacy Policy**
+Data sent to Firebase is encrypted in transit. Our server only lets each player change their own game progress. No method of transmission or storage is 100% secure, but we use the providers' standard protections and collect as little as we can.
 
-We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.
+### Children's privacy
 
-This policy is effective as of 2022-07-10
+Memory Tiles is not directed at children under 13, and we don't knowingly collect personal information from them. If you believe a child under 13 has given us personal information, contact us and we'll delete it.
 
-**Contact Us**
+### Your rights
 
-If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at subbramanil@gmail.com.
+Depending on where you live, you may have the right to access, correct or delete your personal information, or to object to its processing. Contact us at the address below and we'll respond within 30 days.
 
-This privacy policy page was created at [privacypolicytemplate.net](https://privacypolicytemplate.net) and modified/generated by [App Privacy Policy Generator](https://app-privacy-policy-generator.nisrulz.com/)
+### Changes to this policy
+
+We'll post any changes on this page and update the effective date above.
+
+### Contact us
+
+Questions or requests: **subbramanil@gmail.com**
 
 ---
 
 ## Terms & Conditions
 
-By downloading or using the app, these terms will automatically apply to you – you should make sure therefore that you read them carefully before using the app. You’re not allowed to copy or modify the app, any part of the app, or our trademarks in any way. You’re not allowed to attempt to extract the source code of the app, and you also shouldn’t try to translate the app into other languages or make derivative versions. The app itself, and all the trademarks, copyright, database rights, and other intellectual property rights related to it, still belong to Chatura Loka.
+By downloading or using the app, these terms will automatically apply to you – you should make sure therefore that you read them carefully before using the app. You’re not allowed to copy or modify the app, any part of the app, or our trademarks in any way. You’re not allowed to attempt to extract the source code of the app, and you also shouldn’t try to translate the app into other languages or make derivative versions. The app itself, and all the trademarks, copyright, database rights, and other intellectual property rights related to it, still belong to ChaturaLoka.
 
-Chatura Loka is committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make changes to the app or to charge for its services, at any time and for any reason. We will never charge you for the app or its services without making it very clear to you exactly what you’re paying for.
+ChaturaLoka is committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make changes to the app or to charge for its services, at any time and for any reason. We will never charge you for the app or its services without making it very clear to you exactly what you’re paying for.
 
-The **MemoryTiles** app stores and processes personal data that you have provided to us, to provide our Service. It’s your responsibility to keep your phone and access to the app secure. We therefore recommend that you do not jailbreak or root your phone, which is the process of removing software restrictions and limitations imposed by the official operating system of your device. It could make your phone vulnerable to malware/viruses/malicious programs, compromise your phone’s security features and it could mean that the **MemoryTiles** app won’t work properly or at all.
+The Memory Tiles app stores and processes personal data that you have provided to us, to provide our Service. It’s your responsibility to keep your phone and access to the app secure. We therefore recommend that you do not jailbreak or root your phone, which is the process of removing software restrictions and limitations imposed by the official operating system of your device. It could make your phone vulnerable to malware/viruses/malicious programs, compromise your phone’s security features and it could mean that the Memory Tiles app won’t work properly or at all.
+
+Player names appear on a public leaderboard. Don't use a player name that is offensive, impersonates someone else or contains personal information. We may rename or remove players who do.
 
 The app does use third-party services that declare their Terms and Conditions.
 
 Link to Terms and Conditions of third-party service providers used by the app
 
 *   [Google Play Services](https://policies.google.com/terms)
+*   [Google Firebase](https://firebase.google.com/terms)
 *   [Google Analytics for Firebase](https://firebase.google.com/terms/analytics)
 *   [Firebase Crashlytics](https://firebase.google.com/terms/crashlytics)
 
-You should be aware that there are certain things that Chatura Loka will not take responsibility for. Certain functions of the app will require the app to have an active internet connection. The connection can be Wi-Fi or provided by your mobile network provider, but Chatura Loka cannot take responsibility for the app not working at full functionality if you don’t have access to Wi-Fi, and you don’t have any of your data allowance left.
+You should be aware that there are certain things that ChaturaLoka will not take responsibility for. Certain functions of the app will require the app to have an active internet connection. The connection can be Wi-Fi or provided by your mobile network provider, but ChaturaLoka cannot take responsibility for the app not working at full functionality if you don’t have access to Wi-Fi, and you don’t have any of your data allowance left.
 
 If you’re using the app outside of an area with Wi-Fi, you should remember that the terms of the agreement with your mobile network provider will still apply. As a result, you may be charged by your mobile provider for the cost of data for the duration of the connection while accessing the app, or other third-party charges. In using the app, you’re accepting responsibility for any such charges, including roaming data charges if you use the app outside of your home territory (i.e. region or country) without turning off data roaming. If you are not the bill payer for the device on which you’re using the app, please be aware that we assume that you have received permission from the bill payer for using the app.
 
-Along the same lines, Chatura Loka cannot always take responsibility for the way you use the app i.e. You need to make sure that your device stays charged – if it runs out of battery and you can’t turn it on to avail the Service, Chatura Loka cannot accept responsibility.
+Along the same lines, ChaturaLoka cannot always take responsibility for the way you use the app i.e. You need to make sure that your device stays charged – if it runs out of battery and you can’t turn it on to avail the Service, ChaturaLoka cannot accept responsibility.
 
-With respect to Chatura Loka’s responsibility for your use of the app, when you’re using the app, it’s important to bear in mind that although we endeavor to ensure that it is updated and correct at all times, we do rely on third parties to provide information to us so that we can make it available to you. Chatura Loka accepts no liability for any loss, direct or indirect, you experience as a result of relying wholly on this functionality of the app.
+With respect to ChaturaLoka’s responsibility for your use of the app, when you’re using the app, it’s important to bear in mind that although we endeavor to ensure that it is updated and correct at all times, we do rely on third parties to provide information to us so that we can make it available to you. ChaturaLoka accepts no liability for any loss, direct or indirect, you experience as a result of relying wholly on this functionality of the app.
 
-At some point, we may wish to update the app. The app is currently available on Android – the requirements for the system(and for any additional systems we decide to extend the availability of the app to) may change, and you’ll need to download the updates if you want to keep using the app. Chatura Loka does not promise that it will always update the app so that it is relevant to you and/or works with the Android version that you have installed on your device. However, you promise to always accept updates to the application when offered to you, We may also wish to stop providing the app, and may terminate use of it at any time without giving notice of termination to you. Unless we tell you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must stop using the app, and (if needed) delete it from your device.
+At some point, we may wish to update the app. The app is currently available on Android – the requirements for the system (and for any additional systems we decide to extend the availability of the app to) may change, and you’ll need to download the updates if you want to keep using the app. ChaturaLoka does not promise that it will always update the app so that it is relevant to you and/or works with the Android version that you have installed on your device. However, you promise to always accept updates to the application when offered to you, We may also wish to stop providing the app, and may terminate use of it at any time without giving notice of termination to you. Unless we tell you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must stop using the app, and (if needed) delete it from your device.
 
 **Changes to This Terms and Conditions**
 
 We may update our Terms and Conditions from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Terms and Conditions on this page.
 
-These terms and conditions are effective as of 2022-07-10
+These terms and conditions are effective as of 2026-11-15
 
 **Contact Us**
 
