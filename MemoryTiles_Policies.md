@@ -17,7 +17,7 @@ ChaturaLoka ("we") makes Memory Tiles, a free memory game for Android: flip two 
 * If you continue with Google, Google shares your **name, email address and profile photo** with Memory Tiles. Your email address and photo are never shown to other players.
 * We use Google Firebase to understand how the app is used and to fix crashes.
 * We **don't sell your data and don't show ads**.
-* You can ask us to **delete your account and game data** at any time (see "Keeping and deleting your data").
+* You can **delete your account** and game data at any time, in the app or by email.
 
 ### Information we collect
 
@@ -63,7 +63,8 @@ We may also disclose information if required by law.
 ### Keeping and deleting your data
 
 * **Your account and game data** are kept while you play. Signing out (Exit or Log out on the Profile screen) or uninstalling the app does **not** delete them from our server.
-* **To delete your account and game data**, email **subbramanil@gmail.com** from any address with the subject "Delete my Memory Tiles account" and your player name (and, for Google accounts, the Google email address you used). We'll delete your Firebase account and your game progress, which removes you from the leaderboard, within 30 days and confirm by email.
+* **Delete your account in the app:** open Memory Tiles → tap your name to open your **Profile** → **Delete account**, and confirm. If you play with Google, Google asks you to confirm it's you. This immediately deletes your game progress (which removes you from the leaderboard), your Firebase account and the profile stored on your phone. It can't be undone.
+* **Delete your account by email:** if you can't use the app any more, email **subbramanil@gmail.com** with the subject "Delete my Memory Tiles account" and your player name (and, for Google accounts, the Google email address you used). We'll delete the same data within 30 days and confirm by email.
 * **Data on your device** is removed when you uninstall the app or clear its storage.
 * **Analytics and crash data** are kept by Google for its standard retention periods (for Google Analytics, up to 14 months) and are not linked to your player name or email.
 * You can also remove Memory Tiles' access to your Google account at any time at [myaccount.google.com/connections](https://myaccount.google.com/connections).
