@@ -6,7 +6,7 @@ layout: default
 
 ## Privacy Policy
 
-**Effective date: 2026-11-15**
+**Effective date: 2026-11-21**
 
 ChaturaLoka ("we") makes Memory Tiles, a free memory game for Android: flip two tiles at a time, find the matching pairs, and climb 25 levels and a global leaderboard. This policy explains what information Memory Tiles collects, why, and the choices you have.
 
@@ -36,7 +36,7 @@ The leaderboard shows other players your **player name, level, total score and m
 
 **3. Usage and diagnostics**
 
-* **Google Analytics for Firebase:** records standard app events such as app opens, sessions and screens viewed. These events don't include your player name, your email or your game progress. Firebase also uses an app-instance identifier, basic device information (model, OS version, country derived from IP address) and, where your device allows it, your device's advertising ID. Memory Tiles doesn't show ads or use the advertising ID for ad personalisation.
+* **Google Analytics for Firebase:** records standard app events such as app opens, sessions and screens viewed. These events don't include your player name, your email or your game progress. Firebase also uses an app-instance identifier and basic device information (model, OS version, country derived from IP address). From version 1.7.0, Memory Tiles doesn't collect your device's advertising ID. Earlier versions let Analytics read it where your device allowed it, but never used it for ads or ad personalisation. Memory Tiles doesn't show ads.
 * **Firebase Crashlytics:** sends crash and error reports with device and app details so we can fix problems. Reports don't include your player name, email address or user ID.
 
 **4. Permissions**
